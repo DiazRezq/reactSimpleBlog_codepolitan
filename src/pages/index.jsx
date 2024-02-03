@@ -18,10 +18,10 @@ function Homepage() {
     <>
       <h1>Simple Blog</h1>
       <Search onSearchChange={onSearchChange} totalPosts={totalPosts} />
-      {posts.map(({ title, tags, date }, index) => (
+      {posts.map((props, index) => (
         // <Articles title={blog.title} tags={blog.tags} date={blog.date} />
-        <Articles {...{ title, tags, date }} key={index} />
-        // <Articles {...props} key={index} />
+        // <Articles {...{ title, tags, date }} key={index} />
+        <Articles {...props} key={index} />
       ))}
     </>
   );

@@ -2,16 +2,19 @@
   {
     "title": "Tutorial belajar reactJs lengkap",
     "tags": ["react", "frontend"],
-    "date": "2023-01-01"
+    "date": "2023-01-01",
+    "isNew": true
   },
   {
     "title": "Optimasi performa di VueJs",
     "tags": ["react", "frontend"],
-    "date": "2023-01-02"
+    "date": "2023-01-02",
+    "isNew": false
   },
   {
     "title": "cara Tailwindcss pada ReactJs",
     "tags": ["react", "frontend"],
-    "date": "2023-01-03"
+    "date": "2023-01-03",
+    "isNew": false
   }
 ]

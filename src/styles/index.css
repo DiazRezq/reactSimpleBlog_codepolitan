@@ -1,0 +1,9 @@
+.active {
+  background-color: red;
+  color: white;
+}
+
+.spacing {
+  margin-right: 5px;
+  margin-left: 5px;
+}
